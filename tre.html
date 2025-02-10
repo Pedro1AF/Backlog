@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,19 +8,51 @@
 </head>
 <body>
 
-    <header>
-    <input type="text" name="nome">
-    </header>
+<header>
+    <input type="text" name="nome" placeholder="digite o titulo"">
+</header>
 
-    <section>
-        <div class="input-place">
-            <img src="https://www.conjur.com.br/img/b/emoji-joinha.jpeg" alt="joia">
-            <input type="text" name="nome" class="box" placeholder="digite aqui"> 
-        </div>
+<!--divisão entre o header e o section, que com todo respeito nao sei pq botei um section :) -->
+<section>
+    <div class="input-place">
+        <input type="text" name="tafera" class="box" placeholder="digite aqui">
+        <select id="prioridade" required class="importancia">
+            <option value="alta">prioridade</option>
+            <option value="media">meio importante</option>
+            <option value="baixa">dai nois ve</option>
+        </select>
+        <img src="https://media.tenor.com/uiLfqsnCGF0AAAAj/zubrila.gif" alt="nerd">
+    </div>
 
-        <div>
-            <input type="text" name="nome" class="box">
-        </div>
-    </section>
+    <!--divisao entre as divs, so pra deixa bonito mesmo-->
+
+    <div>
+        <input type="text" name="nome" class="box" placeholder="digite o titulo">
+        <select id="prioridade" required class="importancia">
+            <option value="alta">prioridade</option>
+            <option value="media">poco prioridade</option>
+            <option value="baixa">depois nois marca</option>
+        </select>
+        <img src="https://www.conjur.com.br/img/b/emoji-joinha.jpeg" alt="nerd">
+    </div>
+
+    <!--divisao entre as divs, so pra deixa bonito mesmo-->
+
+    <div class="coment">
+        <img src="https://www.conjur.com.br/img/b/emoji-joinha.jpeg" alt="joia">
+        <textarea name="comentario" id="comentar" cols="45" rows="5"></textarea>       
+    </div>
+
+    <!--divisao entre as divs, so pra deixa bonito mesmo-->
+
+    <div class="submit">
+        <button>submit</button>  
+    </div>
+
+</section>
+<!--divisao entre o section e o footer, que com todo respeito nao sei pq botei um footer :) -->
+
+<!--kkjkkkk cara foi o copilot q escreveu esse comentario kjkk slk vao caba com tudo esses robo -->
+
 </body>
 </html>
